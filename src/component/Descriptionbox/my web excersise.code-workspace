@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../my web excersise"
+		},
+		{
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tomwebproject",
+		"liveServer.settings.port": 5501
+	}
+}

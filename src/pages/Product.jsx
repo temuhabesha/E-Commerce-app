@@ -9,6 +9,8 @@ import Releatedproduct from '../component/Releatedproduct/Releatedproduct'
 const Product = () => {
   const {all_product}=useContext(ShopeContext)
   const {productId}=useParams()
+ 
+  
   const product = all_product.find((e)=>e.id===Number(productId))
   return (
     <div>
