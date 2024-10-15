@@ -36,3 +36,53 @@ font-weight: 600;
     font-weight: 500;
     cursor: pointer;
 }
+@media(max-width:1280px){
+    .shopecatagory-banner{
+        margin: 20px auto;
+        width: 90%;
+    }
+    .shopecatagoryindexsort{
+        width: 90%;
+        margin: auto;
+    }
+    .shopecatagorysort{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .shopecatagoryindexsort p{
+        font-size: 12px;
+    }
+    .shopecatagoryproducts{
+        width: 90%;
+        margin: 10px auto;
+        row-gap: 40px;
+    }
+    .shopecatagoryproducts .item{
+        margin: auto;
+    }
+    .shopecatagorylodemore{
+        margin: 100px auto;
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media(max-width:800px){
+    .shopecatagory-banner{
+        width: 95%;
+    }
+    .shopecatagoryproducts{
+        width: 95%;
+    }
+    .shopecatagorylodemore{
+        margin: 60px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width:500px){
+    .shopecatagoryproducts{
+        grid-template-columns: 1fr 1fr;
+    }
+}
